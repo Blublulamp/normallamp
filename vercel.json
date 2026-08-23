@@ -1,8 +1,15 @@
 {
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://bluelamp.my.id",
+      "permanent": false
+    }
+  ],
   "rewrites": [
     {
-      "source": "/v1/(.*)",
-      "destination": "https://router.marketku.id/v1/$1"
+      "source": "/v1/:path*",
+      "destination": "https://router.marketku.id/v1/:path*"
     }
   ]
 }
