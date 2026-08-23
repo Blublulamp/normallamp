@@ -1,12 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/v1/:path*",
-      "destination": "https://router.marketku.id/v1/:path*"
-    },
-    {
-      "source": "/:path*",
-      "destination": "https://router.marketku.id/:path*"
+      "source": "/v1/(.*)",
+      "destination": "https://router.marketku.id/v1/$1"
     }
   ]
 }
