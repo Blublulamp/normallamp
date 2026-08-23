@@ -4,6 +4,11 @@
       "source": "/",
       "destination": "https://bluelamp.my.id",
       "permanent": false
+    },
+    {
+      "source": "/v1",
+      "destination": "https://bluelamp.my.id",
+      "permanent": false
     }
   ],
   "rewrites": [
